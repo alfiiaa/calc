@@ -1,0 +1,35 @@
+body{
+    background: #FFFFFF;
+    color: #FFFFFF;
+    font-size: 55px;
+    font-family: 'Roboto';
+}
+.calc{
+    width: 315px;
+    height: 485px;
+    background: #D683CD;
+    padding: 5px;
+}
+.key{
+    width: 75px;
+    height: 75px;
+    background: #271616;
+    text-align: center;
+}
+._grid{
+    display: grid;
+    grid-template-columns: repeat(4, 74px);
+    grid-template-rows: 85px repeat(5, 75px);
+    gap: 5px;
+}
+._tablet{
+    grid-column: span 4;
+}
+.tablet{
+    background: #F8F1F1;
+    height: 85px;
+    color: #000;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
